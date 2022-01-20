@@ -3,7 +3,7 @@ import { makeStyles } from '@mui/styles';
 // makeStyles
 const useStyles = makeStyles({
 	navBar: {
-		backgroundColor: '#f34222',
+		// backgroundColor: '#f34222',
 		'& a': {
 			color: '#fff',
 			marginLeft: 10,
@@ -23,8 +23,13 @@ const useStyles = makeStyles({
 		minHeight: '80vh'
 	},
 	footer: {
+		marginTop:10,
 		textAlign: 'center',
 		fontWeight: 'bold'
+	},
+	section:{
+		marginTop:10,
+		marginBottom:10
 	}
 });
 
